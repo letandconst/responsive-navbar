@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Navbar</title>
+		<link
+			rel="stylesheet"
+			href="./assets/css/index.css"
+		/>
+	</head>
+	<body>
+		<header
+			class="header"
+			id="header"
+		>
+			<section class="wrapper container">
+				<a
+					href="./index.html"
+					class="brand"
+					>LOGO</a
+				>
+				<div
+					class="burger"
+					id="burger"
+				>
+					<svg
+						width="24px"
+						height="24px"
+						viewBox="0 0 24 24"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<path
+							d="M20 7L4 7"
+							stroke="#ffffff"
+							stroke-width="1.5"
+							stroke-linecap="round"
+						/>
+						<path
+							d="M20 12L4 12"
+							stroke="#ffffff"
+							stroke-width="1.5"
+							stroke-linecap="round"
+						/>
+						<path
+							d="M20 17L4 17"
+							stroke="#ffffff"
+							stroke-width="1.5"
+							stroke-linecap="round"
+						/>
+					</svg>
+				</div>
+				<span class="overlay"></span>
+
+				<nav
+					class="navbar"
+					id="navbar"
+				>
+					<ul
+						class="menu"
+						id="menu"
+					>
+						<li class="menu-item">
+							<a
+								href="#"
+								class="menu-link"
+								>Home</a
+							>
+						</li>
+						<li class="menu-item menu-dropdown">
+							<span
+								class="menu-link"
+								data-toggle="submenu"
+								>About
+								<svg
+									width="24px"
+									height="24px"
+									viewBox="0 0 24 24"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M17 9.5L12 14.5L7 9.5"
+										stroke="#ffffff"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+								</svg>
+							</span>
+							<ul class="submenu">
+								<li class="submenu-item">
+									<a
+										href="#"
+										class="submenu-link"
+										>Dropdown Link 1</a
+									>
+								</li>
+								<li class="submenu-item">
+									<a
+										href="#"
+										class="submenu-link"
+										>Dropdown Link 2</a
+									>
+								</li>
+								<li class="submenu-item">
+									<a
+										href="#"
+										class="submenu-link"
+										>Dropdown Link 3</a
+									>
+								</li>
+								<li class="submenu-item">
+									<a
+										href="#"
+										class="submenu-link"
+										>Dropdown Link 4</a
+									>
+								</li>
+							</ul>
+						</li>
+
+						<li class="menu-item">
+							<a
+								href="#"
+								class="menu-link"
+								>Contact Us</a
+							>
+						</li>
+					</ul>
+				</nav>
+			</section>
+		</header>
+		<main>
+			<div class="container">
+				<h1>This is a sample content</h1>
+			</div>
+		</main>
+		<script src="/assets/js/index.js"></script>
+	</body>
+</html>
